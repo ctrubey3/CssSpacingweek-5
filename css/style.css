@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.parent1 .child1 {
+  position: absolute;
+  top: 88px;
+  right: 100px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent1 .child2 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+.parent1 .child3 {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  margin-right: 1px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+}
+body .child1,
+html .child1 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+}
+body .child2,
+html .child2 {
+  position: absolute;
+  top: 175px;
+  left: 150px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+body .child3,
+html .child3 {
+  position: relative;
+  top: 350px;
+  left: 500px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  margin: auto;
+  display: flex;
+}
+body .child8,
+html .child8 {
+  position: absolute;
+  top: 220px;
+  left: 340px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: auto;
+  display: flex;
+}
+body .child9,
+html .child9 {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+body .child10,
+html .child10 {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  margin: auto;
+  display: flex;
+}
+ul {
+  position: absolute;
+  right: 350px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+a {
+  display: inline-block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.parent2 .child5 {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-top: 8px;
+  display: flex;
+}
+.parent2 .child6 {
+  position: absolute;
+  top: 175px;
+  left: 175px;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: auto;
+  display: flex;
+}
+.parent2 .child7 {
+  position: absolute;
+  top: 300px;
+  left: 1px;
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
